@@ -1,0 +1,12 @@
+a = int(input('a= '))
+b = int(input('b= '))
+c = int(input('c= '))
+d = int(input('d= '))
+e = int(input('e= '))
+f = int(input('f= '))
+g = int(input('g= '))
+h = int(input('h= '))
+i = int(input('i= '))
+
+determinant = a*(e*i - h*f) - b*(d*i - g*f) + c*(d*h - g*e)
+print(determinant)
